@@ -99,7 +99,10 @@ int main() {
 		}
 
 		if (islem_sec==6) {
-			printf(KRMZ"                                        ____________________                                               \n");
+		  remove("Skorlar.txt");
+		  remove("dosya.txt");
+		  remove("a.out");
+		  printf(KRMZ"                                        ____________________                                               \n");
 		  printf("                                       |                    |                                              \n");
 		  printf("=====================================> | PROGRAMDAN ÇIKILDI | <============================================\n");
 		  printf("                                       |____________________|                                              \n"RESET);

@@ -35,9 +35,9 @@ for(int sayac=0; sayac<5; sayac++) {
     puan++;
     
   }
-  	else{
+  	else
   		printf(KRMZ"Yanlış Cevap"RESET);
-  	}
+  	
   }
   else if(cevap=='B') {
     if(!strcmp(yeni_soru[z].correct_option,yeni_soru[z].option_b)) {
@@ -45,9 +45,9 @@ for(int sayac=0; sayac<5; sayac++) {
     yeni_puan ++;
     puan ++;
   }
-  	else{
+  	else
   		printf(KRMZ"Yanlış Cevap"RESET);
-  	}
+  	
   }
   else if(cevap=='C') {
     if(!strcmp(yeni_soru[z].correct_option,yeni_soru[z].option_c)) {
@@ -55,9 +55,9 @@ for(int sayac=0; sayac<5; sayac++) {
     yeni_puan ++;
     puan ++;
   }
-  	else{
+  	else
   		printf(KRMZ"Yanlış Cevap"RESET);
-  	}
+  	
   }
   else if(cevap=='D') {
     if(!strcmp(yeni_soru[z].correct_option,yeni_soru[z].option_d)) {
@@ -65,9 +65,9 @@ for(int sayac=0; sayac<5; sayac++) {
     yeni_puan ++;
     puan ++;
   }
-  	else{
+  	else
   		printf(KRMZ"Geçersiz bir değer girdiniz. Cevap yanlış sayılacaktır."RESET);
-  	}
+  	
   }
   printf("%d\n",yeni_puan);
 }
